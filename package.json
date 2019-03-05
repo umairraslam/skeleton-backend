@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/umairraslam/skeleton-backend/issues"
   },
-  "homepage": "https://github.com/umairraslam/skeleton-backend#readme"
+  "homepage": "https://github.com/umairraslam/skeleton-backend#readme",
+  "dependencies": {
+    "hapi": "^18.1.0"
+  }
 }
