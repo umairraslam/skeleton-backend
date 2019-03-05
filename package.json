@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,11 @@
   },
   "homepage": "https://github.com/umairraslam/skeleton-backend#readme",
   "dependencies": {
-    "hapi": "^18.1.0"
+    "dotenv": "^6.2.0",
+    "hapi": "^18.1.0",
+    "hapi-swagger": "^9.3.1",
+    "inert": "^5.1.2",
+    "joi": "^14.3.1",
+    "vision": "^5.4.4"
   }
 }
